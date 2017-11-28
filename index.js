@@ -8,5 +8,7 @@ function destructivelyAppendDriver(name)
 
 function destructivelyAppendDriver(name)
 {
-  drivers = [name, "Milo", "Otis", "Garfield"]
+  drivers.unshift(name)
 }
+
+
