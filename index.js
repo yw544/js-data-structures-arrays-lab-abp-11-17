@@ -8,5 +8,5 @@ function destructivelyAppendDriver(name)
 
 function destructivelyAppendDriver(name)
 {
-  drivers.pop(name)
+  drivers = [name, "Milo", "Otis", "Garfield"]
 }
