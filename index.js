@@ -41,3 +41,10 @@ function removeLastDriver()
   removeDrivers.pop()
   return removeDrivers;
 }
+
+function removeFirstDriver()
+{
+  const removeFDrivers = drivers.slice(0)
+  removeFDrivers.shift
+  return removeFDrivers
+}
